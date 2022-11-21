@@ -1,0 +1,36 @@
+.guess-me {
+  width: 330px;
+  height: 330px;
+  margin-bottom: 50px;
+}
+.guess-me-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  border: 1px solid lightcoral;
+}
+.guess-me-buttonsBlock {
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+}
+.guess-me-button + .guess-me-button {
+  margin-left: 15px;
+}
+.guess-me-button {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.wrongAnswer {
+  color: red;
+  font-size: 24px;
+  align-items: center;
+}
+.correctAnswer {
+  color: green;
+  font-size: 24px;
+  align-items: center;
+}
